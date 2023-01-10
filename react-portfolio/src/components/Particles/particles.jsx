@@ -18,6 +18,7 @@ function Particless() {
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
+        className="particles-js"
         options={{
             "particles": {
               "number": {

@@ -797,10 +797,13 @@ html {
   font-weight: bold;
 }
 .profile-pic {
+  position: relative;
   border-radius: 50%;
   height: 70%;
   width: 65%;
   margin-top: 12%;
+  z-index: 1 !important;
+  box-shadow: 0 10px 5px 3px rgba(99, 98, 99, 0.459) !important;
   margin-left: 25%;
 }
 
@@ -808,6 +811,9 @@ html {
   color:#0F4C75;
 }
 
+.particles-js{
+  z-index: -1 !important;
+}
 
 @media (max-width: 767px) {
   .profile-pic {
