@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Particles from "../Particles/particles";
 import myImg from "../../Assets/profile-pic-rec.png";
-import SocialMedia from "../SocialMedia";
+import SocialMedia from "../SocialMediaHome";
 import TypeWriter from "./TypeWriter";
 // import Particles from 'react-particles-js';
 // import particlesConfig from '../config/particlesjs-config';
@@ -12,7 +13,9 @@ function Home() {
       <Container fluid className="home-section" id="home">
       
         <Container className="home-content">
+        
           <Row>
+          <Particles />
             <Col md={6} className="home-header">
               {/* <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
@@ -43,6 +46,7 @@ function Home() {
                 <img src={myImg} className="profile-pic" alt="avatar" />
               </div>
             </Col>
+           
           </Row>
         </Container>
       </Container>
@@ -59,6 +63,7 @@ function Home() {
                 <strong>Feel free to connect with me</strong>
               </p> */}
               <SocialMedia />
+
             </Col>
           </Row>
         </Container>

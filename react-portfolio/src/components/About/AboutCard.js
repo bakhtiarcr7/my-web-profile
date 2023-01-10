@@ -23,15 +23,15 @@ function AboutCard() {
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
-          <ul>
+          <ul >
             <li className="about-activity">
-              <FaChessKing /> Chess
+              <FaChessKing className="hobby-icons" /> Chess
             </li>
             <li className="about-activity">
-              <BiFootball /> Football
+              <BiFootball className="hobby-icons"/> Football
             </li>
             <li className="about-activity">
-              <GiPaintBrush /> Calligraphy
+              <GiPaintBrush className="hobby-icons"/> Calligraphy
             </li>
            
           </ul>

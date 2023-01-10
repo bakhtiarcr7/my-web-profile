@@ -5,6 +5,7 @@ html {
 .purple {
   color: var(--imp-text-color) !important;
   font-weight: bold;
+  color: #0F4C75 !important; 
 }
 
 /* --------- */
@@ -347,7 +348,7 @@ html {
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;
-  color: #414141 !important;
+  color: #0F4C75 ;
 }
 
 .home-about-social-links {
@@ -802,6 +803,11 @@ html {
   margin-top: 12%;
   margin-left: 25%;
 }
+
+.hobby-icons{
+  color:#0F4C75;
+}
+
 
 @media (max-width: 767px) {
   .profile-pic {
