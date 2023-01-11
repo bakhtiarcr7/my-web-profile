@@ -20,7 +20,7 @@
     height: 60px !important;
     text-align: center !important;
     font-size: 1.2em !important;
-    line-height: 2em !important;
+    line-height: 2.2em !important;
     background: #0F4C75 !important;
     border-radius: 50% !important;
     transition: 0.5s !important;
@@ -51,5 +51,18 @@
     box-shadow: 0 0 5px #0F4C75;
     text-shadow: 0 0 2px #3282B8;
   }
-  
+  @media (max-width: 767px) {
+    .banner-about-social-links {
+      padding-bottom: 0;
+      margin-top: 0;
+      padding-top: 0;
+    }
+    .banner-about-social-links{
+      padding-bottom: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      margin-top: 0;
+    }
+   
+  }
  

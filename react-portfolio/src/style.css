@@ -304,6 +304,7 @@ html {
 }
 
 @media (max-width: 767px) {
+ 
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 600 !important;
@@ -802,7 +803,7 @@ html {
   height: 70%;
   width: 65%;
   margin-top: 12%;
-  z-index: 1 !important;
+  z-index: 9 !important;
   box-shadow: 0 10px 5px 3px rgba(99, 98, 99, 0.459) !important;
   margin-left: 25%;
 }
@@ -820,8 +821,12 @@ html {
     border-radius: 50%;
     height: 80%;
     width: 50%;
-    margin-top: 12%;
-    margin-left: 25%;
+    margin-top: 15%;
+    /* margin-left: 25%; */
+  }
+  .my-profile{
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 }
 

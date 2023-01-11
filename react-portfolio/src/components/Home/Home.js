@@ -16,7 +16,7 @@ function Home() {
         
           <Row>
           <Particles />
-            <Col md={6} className="home-header">
+            <Col md={7} className="home-header">
               {/* <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -41,7 +41,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5}>
+            <Col md={5} className="my-profile">
               <div>
                 <img src={myImg} className="profile-pic" alt="avatar" />
               </div>
