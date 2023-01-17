@@ -7,46 +7,54 @@ import HSP from "./Assets/Projects/hsp.png";
 import COSMOS from "./Assets/Projects/cosmos.jpg";
 import TECHSPEC from "./Assets/Projects/techspec.png";
 import TRAVELWELL from "./Assets/Projects/travelwell.png";
-
+import PSX from './Assets/Projects/psx.png'
+import MEME from './Assets/Projects/meme.png'
 
 export const PROJECTS = [
   {
-    image: COSMOS,
+    image: PSX,
     name: "PSX Investor Assistant",
     technologyUsed: "ReactJs, Javascript, Flask, Heroku, NodeJs, Mongodb, Respberry-pie",
     description: "This our FYP, where we are building a web app, that provides trading assistance in Pakistan Stock Exchange",
-    url: "https://cosmos.azure.com/",
+    url: "",
   },
   {
-    image: TRAVELWELL,
+    image: '',
     name: "Restaurant Management System",
     technologyUsed: ".NET, C#, WindowForms",
     description: "A PoS system for a restaurant that allows users to look into the menu and book a order and create a customer receipt accordingly",
-    url: "https://travlwell.com/",
+    url: "",
   },
   {
-    image: COAST,
+    image: '',
+    name: "Travel Sindh",
+    technologyUsed: "React, Javascript",
+    description: "",
+    url: "",
+  },
+  {
+    image: MEME,
     name: "Meme Generator",
     technologyUsed: "React, Javascript",
     description: "A react web app that enables users to create memes on the top 10 trading meme templates (images)",
-    url: "https://play.google.com/store/apps/details?id=com.fomo.android.app",
+    url: "",
   },
   {
-    image: AUTOMATION,
+    image: '',
     name: "Book a Daewoo",
     technologyUsed: "JavaFX Desktop App",
     description: " javafx app that uses SQLite db to store data, and lets users to book a daewoo according to their date, time, and location",
-    url: "https://www.3automation.com/",
+    url: "",
   },
   {
-    image: GUAMEDIA,
+    image: '',
     name: "Medicine Reminder",
     technologyUsed: "Andriod app, Java Andriod Studio",
     description: "An android app that enables users to set reminders for their medication and set alarms to according to their selected time and date",
-    url: "https://play.google.com/store/apps/details?id=com.tiu.guo.media",
+    url: "",
   },
   {
-    image: TECHSPEC,
+    image: '',
     name: "Image Classifier",
     technologyUsed: "Python, Tensorflow, Keras",
     description: "Trained a model using a Thinkable machine and used it to predict the class entities present in an image of size 700X700",

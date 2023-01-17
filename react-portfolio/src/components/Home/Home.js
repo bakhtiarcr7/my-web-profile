@@ -4,6 +4,7 @@ import Particles from "../Particles/particles";
 import myImg from "../../Assets/profile-pic-rec.png";
 import SocialMedia from "../SocialMediaHome";
 import TypeWriter from "./TypeWriter";
+import Skills from "../Skills";
 // import Particles from 'react-particles-js';
 // import particlesConfig from '../config/particlesjs-config';
 
@@ -62,8 +63,30 @@ function Home() {
                 <br />
                 <strong>Feel free to connect with me</strong>
               </p> */}
-              <SocialMedia />
-
+              <SocialMedia  />
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+      {/* This component is under development ----  */}
+      <Container fluid className="skills" id="">
+        <Container>
+          <Row>
+            <Col md={6} className="">
+              <img src="https://via.placeholder.com/600x300"/>
+              {/* <h1>Get in Touch</h1>
+              <p>
+                {" "}
+                Whether you want to get in touch, or talk about a project
+                collaboration.
+                <br />
+                <strong>Feel free to connect with me</strong>
+              </p> */}
+              {/* <SocialMedia  /> */}
+              {/* <Skills/> */}
+            </Col>
+            <Col md={6}>
+              <h2>Skills heading!</h2>
             </Col>
           </Row>
         </Container>
