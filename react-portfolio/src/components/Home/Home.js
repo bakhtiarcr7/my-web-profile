@@ -70,10 +70,10 @@ function Home() {
       </Container>
       {/* This component is under development ----  */}
       <Container fluid className="skills" id="">
-        <Container>
-          <Row>
-            <Col md={6} className="">
-              <img src="https://via.placeholder.com/600x300"/>
+        {/* <Container> */}
+          {/* <Row>
+            <Col md={6} className=""> */}
+              {/* <img src="https://via.placeholder.com/600x300"/> */}
               {/* <h1>Get in Touch</h1>
               <p>
                 {" "}
@@ -84,12 +84,15 @@ function Home() {
               </p> */}
               {/* <SocialMedia  /> */}
               {/* <Skills/> */}
-            </Col>
+            {/* </Col>
             <Col md={6}>
               <h2>Skills heading!</h2>
             </Col>
-          </Row>
-        </Container>
+          </Row> */}
+
+          
+        {/* </Container> */}
+        <Skills/>
       </Container>
     </section>
   );
